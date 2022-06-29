@@ -1,5 +1,5 @@
-import React from "react";
-import { useHistory, Link } from "react-router-dom";
+import React from 'react'
+import { useHistory, Link } from 'react-router-dom'
 
 // function GoHomeButton() {
 //   const history = useHistory();
@@ -11,7 +11,7 @@ import { useHistory, Link } from "react-router-dom";
 // }
 
 function GoHomeButton() {
-  return <Link to={"/"}>Go Home</Link>;
+	return <Link to={'/'}>Go Home</Link>
 }
 
-export default GoHomeButton;
+export default GoHomeButton
